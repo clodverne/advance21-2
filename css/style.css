@@ -1,15 +1,266 @@
-body {
-	background-color: #000;
-	margin: 0;
-	font-family: sans-serif;
+.b-header {
+ 
+  width: 100%;
+  height: 170px;
+
+  
+ }
+.b-header__logo {
+  display: inline-block;
+
+   }
+.b-header__img {
+  
+  position: absolute;
+  left: 116px;
+  top: 32px;
+  width: 92px;
+  height: 25px;
+  
 }
-h1 {
-	color: #fff;
-	text-align: center;
-	padding-top: 20%;
+.b-header__menu {
+  display: inline-block;
+   margin-left: 25%;
+  margin-top: 32px;
+  
+ }
+.b-header__item {
+  font-size: 14px;
+  color: rgb(52, 62, 92);
+  line-height: 1.2;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-left: 20px;
+ 
 }
-h3 {
-	color: #eee;
-	text-align: center;
-	padding-top: 22%;
+
+.b-header__cart {
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 32px;
+}
+.b-header__cart-text {
+
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(52, 62, 92);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  top: -3px;
+
+  
+}
+.b-header__Badge {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: rgb(227, 232, 240);
+  position: relative;
+  top: -7px;
+  width: 24px;
+  height: 24px;
+  
+}
+.b-header__Badge-text {
+
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(52, 62, 92);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  top: 3px;
+  left: 7px;
+}
+.b-header__button {
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgb(227, 232, 240);
+  border-style: solid;
+  border-radius: 16px;
+  position: relative;
+  left: 10px;
+  top: -9px;
+  width: 81px;
+  height: 28px;
+  
+}
+.b-header__button-text {
+
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(52, 62, 92);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
+.b-header__nav-item {
+  display: inline-block;
+
+  position: relative;
+  left: 85px;
+ 
+  
+ }
+.b-header__nav-item {
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(185, 190, 209);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-left: 25px;
+  z-index: 1000;
+ }
+ .b-header__nav-item_default {
+  color: rgb(52, 62, 92);
+  z-index: 1000;
+ }
+.b-header__support {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  top: -2px;
+
+    
+}
+.b-header__support-text {
+
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(185, 190, 209);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  top: 3px;
+  left: 7px;
+  
+
+}
+.b-header__search {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 0px;
+ 
+    
+}
+.b-header__search-img {
+
+  display: inline;
+  padding: 0 10px;
+}
+.b-header__search-input {
+display: inline;
+font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(161, 168, 189);
+  line-height: 1.714;
+  outline: none;
+  border: none;
+  width: 120px;
+  height: 30px;
+ 
+
+    
+}
+.b-header__line-vertical {
+	 display: inline-block;
+border-right: 1px solid #f0f2f7;
+position: relative;
+  left: 50px;
+  top: 18px;
+  height: 64px;
+
+}
+.b-header__line-gorizontal {
+	 display: inline-block;
+border-top: 1px solid #f0f2f7;
+ width: 100%;
+ position: relative;
+ 
+  top: 27px;
+}
+.b-main {
+  background-color: rgb(28, 30, 35);
+height: 500px;
+overflow: hidden;
+}
+.b-main__text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 646px;
+  
+}
+.b-main__text-iphone {
+  font-size: 42px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 210.906px;
+  top: 242.079px;
+ 
+}
+.b-main__text-black {
+  font-size: 42px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 210.906px;
+  top: 290.079px;
+ 
+}
+.b-main__text-about {
+  font-size: 16px;
+  font-family: "Crimson Text";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 212.719px;
+  top: 365.071px;
+  width: 453px;
+  height: 63px;
+  
+}
+.b-main__button {
+	 display: inline-block;
+  border-radius: 21px;
+  background-color: rgb(39, 84, 235);
+  position: relative;
+ left: 210px;
+  top: 300px;
+  width: 165px;
+  height: 42px;
+  
+}
+.b-main__button-text {
+
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+ position: relative;
+ left: 55px;
+  top: 10px;
+    
+}
+.b-main__iphone {
+
+  position: relative;
+ left: 800px;
+  top: -110px;
+
+  
 }
