@@ -1,0 +1,132 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  -webkit-animation-name: anim-color;
+  -moz-animation-name: anim-color;
+  -o-animation-name: anim-color;
+  animation-name: anim-color;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -moz-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -o-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation: anim-color 2s easy 1s infinity reverse;
+  -moz-animation: anim-color 2s easy 1s infinity reverse;
+  -o-animation: anim-color 2s easy 1s infinity reverse;
+  animation: anim-color 2s easy 1s infinity reverse;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anim-color {
+  0% {
+    background-color: gray;
+    margin-left: 0;
+  }
+
+  to {
+    background-color: purple;
+    margin-left: 400px;
+  }
+}
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.parallax-window {
+  height: 100vh;
+}
+
+.logo,
+.menu {
+  position: fixed;
+  top: 30px;
+}
+
+.logo {
+  left: 30px;
+}
+
+.menu {
+  right: 30px;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-family: "Myriad Pro";
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  color: #ccc;
+}
+
+.menu img {
+  position: relative;
+  top: -1px;
+}
+
+.contact,
+.copy {
+  position: fixed;
+  bottom: 30px;
+}
+
+.copy {
+  left: 30px;
+  font-size: 1.2rem;
+  font-family: "Segoe UI";
+  color: #fff;
+}
+
+.contact {
+  right: 30px;
+}
+
+.contact,
+.step,
+.step a {
+  font-size: 1.2rem;
+  font-family: "Segoe UI";
+  color: #fff;
+}
+
+.step {
+  display: block;
+  position: fixed;
+  bottom: 8rem;
+  right: 3rem;
+}
+
+.step a {
+  text-decoration: none;
+}
